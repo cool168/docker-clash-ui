@@ -10,5 +10,5 @@ RUN git clone https://github.com/Dreamacro/clash-dashboard.git \
 
 FROM dreamacro/clash
 
-COPY config.yml /root/.config/clash/
+COPY config.yaml /root/.config/clash/
 COPY --from=0 /ui /ui
